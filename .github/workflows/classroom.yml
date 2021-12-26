@@ -16,9 +16,6 @@
                 with:
                   java-version: 11
 
-              # Gradle build
-              - name: Build with Gradle
-                run: ./gradlew build
 
               # Archiving code coverage results ←このセクションがテスト結果を保存している
               - name: Archive code coverage results
