@@ -19,6 +19,8 @@
 #         run: ./gradlew build
 name: Upload single file
 on: push
+permissions:
+  contents: read
 jobs:
   upload_file:
     name: Upload File
